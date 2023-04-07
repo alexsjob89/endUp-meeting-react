@@ -1,38 +1,55 @@
+body {
+    overflow: hidden;
+}
+
+.modal {
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #231E3E;
+    border-radius: 4px;
+    padding: 3rem;
+    box-shadow: 0px 0px 21px 0px rgba(204, 204, 204, 0.6);
+    color: white;
+}
+
+.modal h2 {
+    margin-top: 0;
+}
+
+.modal p {
+    margin-bottom: 8px;
+}
+
+.modal button {
+    margin-top: 16px;
+}
+
+.star-filled {
+    color: gold;
+    font-size: 24px;
+}
+
 .App {
-  text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    inset: 16rem;
+    text-align: center;
+    height: 32rem;
+    background-image: linear-gradient(to bottom right, #D0CBF3, #231E3E);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button {
+    font-size: 18px;
+    padding: 5px 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+    background: none;
+    border: none;
+    background-image: linear-gradient(to bottom right, #9C9CBA, red);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.endUp-btn {
+    margin-top: 5rem;
 }
