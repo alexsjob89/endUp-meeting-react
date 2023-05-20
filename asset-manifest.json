@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/endUp-meeting-react/static/css/main.9e19f350.css",
+    "main.js": "/endUp-meeting-react/static/js/main.8d128f70.js",
+    "index.html": "/endUp-meeting-react/index.html",
+    "main.9e19f350.css.map": "/endUp-meeting-react/static/css/main.9e19f350.css.map",
+    "main.8d128f70.js.map": "/endUp-meeting-react/static/js/main.8d128f70.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e19f350.css",
+    "static/js/main.8d128f70.js"
+  ]
+}
